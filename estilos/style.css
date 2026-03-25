@@ -22,6 +22,16 @@
   --fundo-card: #ffffff;
  }
 
+ body.escuro {
+  --fundo-principal: #222222;
+   --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
+
+ }
+
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -101,7 +111,7 @@ div#social {
   justify-content: center;
   align-items: center;
   font-size: 1.6em;
-  gap: 1.5em;
+  gap: 1em;
   margin-top: 15px;
 }
 
